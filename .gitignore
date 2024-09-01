@@ -1,0 +1,32 @@
+# local
+.env
+.local
+*~
+
+# Compiled code
+*.swp
+
+# IDE files
+.vscode
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.directory
+
+# Directory for temporary files
+tmp/
+*.tmp
+
+# Files that might appear in the repository
+*.go
+*.mod
+*.sum
