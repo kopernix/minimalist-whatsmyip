@@ -22,7 +22,7 @@ function ipCheck() {
     return $ip;
 }
 
-function main(array $args) : array
+function main(array $args = []) : array
 {   
     // $ip = $args["ip"] ?? "0.0.0.0"; // Debug
     $ip = ipCheck();
